@@ -1,0 +1,123 @@
+.container2 .card3 {
+    padding-right: 10px !important;
+
+}
+
+.container2 .card4 {
+    height: 400px;
+    width: 100%;
+    overflow-y: scroll;
+
+}
+
+.container2 .card4::-webkit-scrollbar {
+    width: 10px;
+    background: #6777ef1f;
+    border-radius: 50px;
+
+}
+
+.container2 .card4::-webkit-scrollbar-thumb {
+    background: #2081e23f;
+    border-radius: 50px;
+
+}
+
+.container2 .card4 .btn-kerjakan {
+    background-color: #2081E2 !important;
+    color: white;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto 0;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.container2 .card3 .form4 {
+    width: 35%;
+
+}
+
+.container2 .card3 .btn-kerjakan {
+    background-color: #2081E2 !important;
+    color: white;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto 0;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.container2 .card4 .soal .tSoal {
+    color: #04111DBF;
+    
+}
+
+@media (max-width: 768px) {
+
+    .container2 .row:nth-child(2) .card2 .detail h2 {
+        font-size: 22px;
+
+    }
+
+    .container2 .row:nth-child(2) .card2 {
+        padding-left: 10px !important;
+
+    }
+
+    .container2 .row:nth-child(2) .card2 .detail .badge {
+        transform: scale(.7);
+        margin-right: 0 !important;
+        position: absolute;
+        top: 5px;
+        right: 20px;
+
+    }
+
+    .container2 .row:nth-child(2) .card2 form .soal .detail-soal .form-group {
+        width: 90% !important;
+
+    }
+
+    .container2 .row:nth-child(2) .card2 form .soal .jawaban .form-check .form-check-label .form-group{
+        width: 80%;
+
+    }
+
+    .container2 .row:nth-child(2) .card2 .card4 form .soal .jawaban .form-group{
+        width: 80% !important;
+
+    }
+
+}
+
+@media (max-width: 567px) {
+
+    .container2 .row:nth-child(2) .card2 .detail .badge {
+        transform: scale(.6);
+        margin-right: 0 !important;
+        position: absolute;
+        top: 5px;
+        right: 0;
+
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    .container2 .row:nth-child(2) .card2 .detail h2 {
+        font-size: 18px;
+
+    }
+
+    .container2 .card3 {
+        padding-left: 10px;
+
+    }
+
+}

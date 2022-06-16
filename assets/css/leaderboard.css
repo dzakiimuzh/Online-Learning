@@ -1,0 +1,100 @@
+.container .rowScore {
+    width: 100%;
+    border: 2px solid #dbdbdb;
+    border-radius: 20px;
+    padding: 12px 30px;
+    display: flex;
+    align-items: center;
+
+}
+
+.container .rowScore.saya {
+    border: none;
+    background: #333547 ;
+
+}
+
+ .cLeaderboard {
+    height: 370px;
+    overflow-y: scroll;
+
+}
+
+ .cLeaderboard::-webkit-scrollbar {
+    width: 10px;
+    background: #6777ef1f;
+
+}
+
+ .cLeaderboard::-webkit-scrollbar-thumb {
+    background: #6777ef48;
+    border-radius: 50px;
+
+}
+
+.container .rowScore b {
+    font-size: 20px;
+
+}
+
+.container .saya {
+    position: fixed;
+    bottom: 15px;
+    width: 70%;
+
+}
+
+.container .rowSaya {
+    background-color: #404881;
+    border: none;
+
+}
+
+.container .rowSaya b {
+    font-size: 20px;
+    color: #fcfcfc;
+
+}
+
+.container .rowScore .name h5 {
+    font-weight: 500;
+    color: #404881;
+    margin: 0;
+
+}
+
+.container .rowSaya .name h5 {
+    font-weight: 600;
+    color: #fcfcfc;
+    margin: 0;
+
+}
+
+.container .rowScore .name p {
+    font-weight: 500;
+    color: #a8a8a8;
+    margin: 0;
+
+}
+
+.container .rowSaya .name p {
+    font-weight: 500;
+    color: #d8d8d8;
+    margin: 0;
+
+}
+
+.container .rowScore .point h4 {
+    font-weight: 600;
+    color: #FF5F7E;
+    margin: 0;
+    font-size: 20px;
+
+}
+
+.container .rowSaya .point h4 {
+    font-weight: 600;
+    color: #FF5F7E;
+    margin: 0;
+
+}

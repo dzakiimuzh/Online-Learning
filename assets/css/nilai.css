@@ -1,0 +1,80 @@
+
+.container .card .table th {
+    font-size: 15px;
+    font-weight: 600;
+    color: #353840;
+
+}
+
+.container .card .table td {
+    font-size: 15px;
+    color: #04111DBF;
+
+}
+
+.container2 .cari {
+    height: 45px;
+    border-radius: 10px;
+
+}
+
+.container2 .btnC {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.container2 .tN {
+    color: #353840;
+    font-weight: 600;
+
+}
+
+.nilai .card {
+    padding: 25px 35px !important;
+
+}
+
+@media (max-width: 768px) {
+
+    .container2 .row:nth-child(2) .col-md-12 .card2 {
+        padding: 25px 30px !important;
+
+    }
+
+    .container2 .row:nth-child(2) .col-md-12 .card2 .aksi .tn {
+        font-size: 24px;
+
+    }
+
+    .container2 .row:nth-child(2) .col-md-12 .card2 .aksi form .input-group {
+        transform: scale(.8);
+        width: 247px;
+        height: 36px;
+
+    }
+
+    .container2 .row:nth-child(2) .col-md-12 .card2 .over{
+        overflow-x: scroll;
+        margin-bottom: 25px;
+
+    }
+
+    .container2 .row:nth-child(2) .col-md-12 .card2 .over .table {
+        width: 200%;
+
+    }
+
+    .container2 .row:nth-child(2) .col-md-12 .card2 .over::-webkit-scrollbar {
+        height: 5px;
+        background: #6777ef1f;
+    
+    }
+    
+    .container2 .row:nth-child(2) .col-md-12 .card2 .over::-webkit-scrollbar-thumb {
+        background: #2081e23f;
+        border-radius: 50px;
+    
+    }
+
+}

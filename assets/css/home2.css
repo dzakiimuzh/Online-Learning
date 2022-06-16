@@ -1,0 +1,361 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #f8f9fc;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.navbar {
+    padding-top: 17px !important;
+    padding-bottom: 17px !important;
+    background-color: rgb(253, 253, 253);
+
+}
+
+.container .navbar-brand {
+    color: #353840 !important;
+    font-weight: 600;
+    font-size: 24px;
+
+}
+
+.container .dropdown {
+    align-items: center;
+
+}
+
+.container .dropdown .name {
+    margin-left: -2px;
+
+}
+
+.container .dropdown .name p {
+    color: #353840;
+    font-size: 15px;
+    margin-bottom: -2px;
+
+}
+
+.container .dropdown .name label {
+    color: #6e7385;
+    font-size: 14px;
+    margin-bottom: 0px;
+
+}
+
+.container .dropdown-toggle {
+    border: none !important;
+    background: transparent;
+
+}
+
+.container .dropdown-toggle::after {
+    display: hidden !important;
+    color: transparent;
+
+}
+
+.container2 .navv {
+    margin-bottom: -40px !important;
+
+}
+
+.container2 .card2 {
+    margin-top: 30px;
+    border: none;
+    background-color: rgb(253, 253, 253);
+    border-radius: 20px;
+    padding: 20px 45px;
+    box-shadow: 0px 0px 6px rgba(148, 148, 148, 0.14);
+
+}
+
+.container2 .nav-row {
+    display: flex;
+    margin-top: 40px;
+
+}
+
+.container2 .nav-row .btn-nav {
+    color: #04111DBF;
+    padding: 0 30px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+}
+
+.container2 .nav-row .btn-nav:focus {
+    box-shadow: none;
+
+}
+
+.container2 .nav-row .active {
+    background: #2081E2;
+    color: #fdfdfd !important;
+
+}
+
+.container2 .btn-mapel {
+    border: 1px solid #2081E2;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 11px 35px;
+    width: 170px;
+    color: #2081E2;
+    font-weight: 500;
+
+}
+
+
+.container2 .card2 .mapel {
+    width: 320px;
+    padding: 20px 30px;
+    border-radius: 15px;
+    background-color: transparent;
+    border: 1px solid rgb(229, 232, 235);
+    flex: none;
+
+}
+
+.container2 .card2 .mapel h5 {
+    font-size: 19px;
+    color: #353840;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+.container2 .card2 .mapel p {
+    color: #2081E2;
+    font-size: 14px;
+    margin-top: -5px;
+
+}
+
+.container2 .card2 .textKelas {
+    font-size: 20px;
+    font-weight: 500;
+    color: #404881;
+
+}
+
+.container2 .card2 .dropdown .btn-secondary {
+    background-color: transparent !important;
+    border: 1px solid #2081E2 !important;
+    color: #2081E2;
+    border-radius: 12px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 55px;
+    
+}
+
+.container2 .card2 .mapel-row {
+    display: flex;
+    overflow-x: scroll;
+    padding-bottom: 20px;
+
+}
+
+.container2 .card2 input.input2 {
+    padding: 20px !important;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+
+.container2 .card2 input.file2 {
+    padding-left: 20px !important;
+    height: 42px;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+
+.container2 .card2 select.input2 {
+    border-radius: 10px;
+    height: 42px;
+    font-size: 15px;
+    padding-left: 20px;
+
+}
+
+.container2 .card2 textarea.input2 {
+    border-radius: 10px;
+
+}
+
+
+.container2 .card2 input,
+.container2 .card2 textarea {
+    background-color: transparent !important;
+
+}
+
+.container2 .card2 .btn-buat {
+    background-color: #2081E2;
+    border-radius: 7px;
+    padding: 9px;
+
+}
+
+.container2 .card2 .mapel-row::-webkit-scrollbar {
+    height: 10px;
+    background: #6777ef1f;
+
+}
+
+.container2 .card2 .mapel-row::-webkit-scrollbar-thumb {
+    background: #2081e23f;
+    border-radius: 50px;
+
+}
+
+.container2 .card2 .mapel label {
+    color: #9ca8b3;
+    font-size: 11.5px;
+    margin-top: -11px;
+
+}
+
+.container2 .card2 .mapel .button {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+
+}
+
+.container2 .card2 .mapel .button .btn-buka {
+    background-color: #2081E2;
+    color: white;
+    padding: 6px 20px;
+    border-radius: 7px;
+    box-shadow: 0 2px 6px #acb5f6;
+
+}
+
+.container2 .card2 .mapel .button .selesai {
+    background-color: rgba(44, 248, 37, 0.2);
+    color: rgb(27, 219, 20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px;
+    border-radius: 7px;
+    font-size: 14px;
+
+}
+
+.container2 .card2 .mapel .button .belum {
+    background-color: rgba(248, 180, 37, 0.3);
+    color: rgb(248, 180, 37);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px;
+    border-radius: 7px;
+    font-size: 14px;
+
+}
+
+@media (max-width: 768px) {
+
+    .container2 .row:nth-child(1) .col-md-12 {
+        overflow-x: scroll;
+        padding: 0 0;
+        padding-bottom: 12px;
+
+    }
+
+    .container2 .row:nth-child(1) .col-md-12 .nav-row {
+        width: 150%;
+
+    }
+
+    .container2 .row:nth-child(1) .col-md-12::-webkit-scrollbar {
+        height: 5px;
+        background: #6777ef1f;
+    
+    }
+    
+    .container2 .row:nth-child(1) .col-md-12::-webkit-scrollbar-thumb {
+        background: #2081e23f;
+        border-radius: 50px;
+    
+    }
+
+    /* .container2 .row:nth-child(1) {
+        overflow-x: scroll;
+       margin-left: 0   ;
+        padding-bottom: 12px;
+
+    }
+    .container2 .row:nth-child(1) .row {
+        padding: 0 !important;
+
+    }
+
+    .container2 .row:nth-child(1) .nav-row {
+        width: 150%;
+
+    }
+
+    .container2 .row:nth-child(1)::-webkit-scrollbar {
+        height: 5px;
+        background: #6777ef1f;
+    
+    }
+    
+    .container2 .row:nth-child(1)::-webkit-scrollbar-thumb {
+        background: #2081e23f;
+        border-radius: 50px;
+    
+    } */
+
+}
+
+@media (max-width: 567px) {
+    .container2 .nav-row .btn-nav {
+        transform: scale(.85);
+    
+    }
+
+    .container2 .row:nth-child(1) .col-md-12 .nav-row {
+        width: 200%;
+
+    }
+
+    .container2 .row:nth-child(1) .col-md-12 {
+        margin: 0 16px;
+
+    }
+    
+    .container2 .nav-row .btn-nav:focus {
+        box-shadow: none;
+    
+    }
+    
+    .container2 .nav-row .active {
+        background: #2081E2;
+        color: #fdfdfd !important;
+    
+    }
+
+}

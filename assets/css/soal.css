@@ -1,0 +1,17 @@
+.detail .row .col-md-7 {
+    height: 450px;
+    overflow-y: scroll;
+
+}
+
+.detail .row .col-md-7::-webkit-scrollbar {
+    width: 10px;
+    background-color: #ecebeb;
+
+}
+
+.detail .row .col-md-7::-webkit-scrollbar-thumb {
+    background: #d6d6d6;
+    border-radius: 50px;
+
+}

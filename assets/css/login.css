@@ -1,0 +1,207 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+body {
+    background-color: #f8f9fc !important;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.container-fluid .col-lg-6:nth-child(2) {
+    background: url('../img/bg.png');
+    background-size: cover;
+
+}
+
+.container-fluid .col-lg-6:nth-child(1) h3 {
+    color: #1F2448;
+    font-weight: 600;
+    font-size: 32px;
+
+}
+
+.container-fluid .col-lg-6:nth-child(1) {
+    padding: 0 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.container-fluid .col-lg-6:nth-child(1) form {
+    width: 90%;
+    margin-top: 35px;
+
+}
+
+.container-fluid .col-lg-6:nth-child(1) label {
+    color: #04111DBF;
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+.container-fluid .col-lg-6:nth-child(1) input {
+    background-color: #fdfdfd;
+    border-radius: 12px;
+    height: 50px;
+    font-size: 15px;
+    padding-left: 18px;
+    border: 1px solid rgb(229, 232, 235);
+
+}
+
+.container-fluid .col-lg-6:nth-child(1) input::-webkit-input-placeholder {
+    font-size: 14.5px;
+    color: #a8a8a8;
+    letter-spacing: .5px;
+
+}
+
+.container-fluid .col-lg-6:nth-child(1) .btn {
+    width: 32%;
+    background-color: #2081E2;
+    color: white;
+    padding: 13px 0;
+    font-size: 15.5px;
+    border-radius: 11px;
+    margin-top: 15px;
+    transition: .5s;
+
+}
+
+.container-fluid .login-card h3 {
+    font-size: 37px !important;
+    line-height: 50px;
+    font-weight: 600 !important;
+
+}
+
+.container-fluid .login-card p {
+    color: #919191;
+    font-size: 15px;
+    margin-bottom: 0;
+
+}
+
+.container-fluid .col-lg-6 {
+    height: 100vh;
+
+}
+
+.container .card {
+    width: 42%;
+    border: none;
+    border-radius: 18px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 460px;
+    margin-top: 80px;
+
+}
+
+.container .card section {
+    background-color: #626ed4;
+    height: 140px;
+    color: white;
+    text-align: center;
+
+}
+
+.container .card section img {
+    width: 90px;
+    margin-top: 15px;
+    filter: drop-shadow(2px 2px 0 white)
+    drop-shadow(-2px 2px 0 white)
+    drop-shadow(2px -2px 0 white)
+    drop-shadow(-2px -2px white);
+
+}
+
+.container .card label {
+    font-size: 15px;
+    color: #212121;
+
+}
+
+.container .card input {
+    border-radius: 7px;
+    font-size: 14.5px;
+
+}
+
+@media (max-width: 992px) {
+    .container-fluid .col-lg-6:nth-child(2) {
+        display: none;
+
+    }
+
+    .container-fluid .row .col-lg-6:nth-child(1) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .container-fluid .row .col-lg-6:nth-child(1) .login-card{
+        width: 70%;
+
+    }
+
+    .container-fluid .col-lg-6:nth-child(1) input {
+        background-color: #fdfdfd;
+        border-radius: 12px;
+        height: 50px;
+        font-size: 15px;
+        padding-left: 18px;
+        width: 100%;
+        border: 1px solid rgb(229, 232, 235);
+    
+    }
+
+    .container-fluid .col-lg-6:nth-child(1) .btn {
+        width: 28%;
+        background-color: #2081E2;
+        color: white;
+        padding: 13px 0;
+        font-size: 15.5px;
+        border-radius: 11px;
+        margin-top: 15px;
+        transition: .5s;
+    
+    }
+}
+
+@media (max-width: 576px) {
+
+    .container-fluid .row .col-lg-6:nth-child(1) .login-card{
+        width: 100% !important;
+
+    }
+
+    .container-fluid .row .col-lg-6:nth-child(1) {
+        padding: 0 40px;
+
+    }
+
+    .container-fluid .col-lg-6:nth-child(1) .btn {
+        width: 45%;
+    
+    }
+
+    .container-fluid .login-card h3 {
+        font-size: 35px !important;
+        line-height: 50px;
+        font-weight: 600 !important;
+    
+    }
+    
+    .container-fluid .login-card p {
+        color: #919191;
+        font-size: 15px;
+        margin-bottom: 0;
+    
+    }
+
+}

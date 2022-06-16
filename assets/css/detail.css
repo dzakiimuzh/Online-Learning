@@ -1,0 +1,68 @@
+.detail .row .col-md-5 {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 15px;
+
+}
+
+.detail .detail-pelajaran {
+    display: flex;
+    margin-top: 15px;
+
+}
+
+.detail .detail-pelajaran a.back {
+    text-decoration: none;
+}
+
+.detail .detail-pelajaran a.back i {
+    font-size: 25px;
+
+}
+
+.detail .detail-pelajaran h2 {
+    font-size: 25px;
+    margin-left: 20px;
+    color: #212121;
+
+}
+
+.detail .table-detail table{
+    width: 90%;
+    margin-top: 25px;
+
+}
+
+.detail .table-detail table tr td {
+    padding-left: 20px;
+    color: #5b626b;
+
+}
+
+.detail .table-detail table tr th {
+    color: #212121;
+    color: #626ed4;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.detail .table-detail table tr td{
+    padding: 10px;
+    font-size: 14.5px;
+
+}
+
+.detail .row .col-md-7 {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 15px;
+
+}
+
+.detail .row .col-md-7 h3 {
+    text-align: center;
+    color: #626ed4;
+    font-size: 20px;
+
+}

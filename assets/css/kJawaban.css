@@ -1,0 +1,14 @@
+.container2 .card3 .jawaban input[type='radio']:checked:after{
+    width: 17px;
+    height: 17px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: rgb(14, 209, 14);
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+
+}
