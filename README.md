@@ -12,7 +12,7 @@
   username : admin <br>
   pw : admin
  <br> <br>
-Dibuat Dengan berikut :
+Dibuat Dengan berikut : <br>
   HTML <br>
   CSS <br>
   Bootstrap <br>
